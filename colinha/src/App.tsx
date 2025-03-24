@@ -6,6 +6,7 @@ import Input from "./components/EventoInput";
 import FetchData from "./components/UseEffetc";
 import { ThemeProvider } from "./components/UseContext"; // Importe o ThemeProvider
 import BotaoTema from "./components/UseContext"; // Importe o BotaoTema
+import Botao2 from "./components/CssModules";
 
 function App(){
   return(
@@ -22,6 +23,7 @@ function App(){
         <BotaoTema />
       </div>
     </ThemeProvider>
+    <Botao2/>
     </>
     
   );
