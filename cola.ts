@@ -44,7 +44,7 @@ const multiplica=(a:number, b:number): number => a*b;
 function saudacao(nome:string, sobrenome?:string){
     return `Olá, ${nome} ${sobrenome||""}`;
 }
-
+// _____________________________________________________
 // genericos cria funções e tipos flexíveis T
 
 function primeiroElemento<T>(array:T[]): T{
@@ -58,7 +58,7 @@ async function buscarDados<T>():Promise<T> {
     const resposta=await fetch ("https://api.example.com/data");
     return resposta.json();
 }
-
+// _____________________________________________________
 // união | e interceção &
  
 let idade1: number | string;
